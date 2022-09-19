@@ -12,19 +12,19 @@ console.log(answer) */
 let numberAnswer = parseFloat(stringAnswer)
 console.log(numberAnswer)*/
 
- for (let i = 0; i < weeklyExpenseQuestions.length; i++) {
+ for (let index = 0; index < weeklyExpenseQuestions.length; index++) {
     let answer = parseFloat(window.prompt(weeklyExpenseQuestions[0]))
 weeklyExpenses = weeklyExpenses + answer
     
  }
 
-for (let i = 0; i < monthlyExpenses.length; i++) {
+for (let index = 0; index < monthlyExpenseQuestions.length; index++) {
     let answer = parseFloat(window.prompt(monthlyExpenseQuestions[0]))
 monthlyExpenses = monthlyExpenses + answer
     
 }
 
-for (let i = 0; i < annualExpenses.length; i++) {
+for (let index = 0; index < annualExpenseQuestions.length; index++) {
     let answer = parseFloat(window.prompt(annualExpenseQuestions[0]))
 annualExpenses = annualExpenses + answer
     
