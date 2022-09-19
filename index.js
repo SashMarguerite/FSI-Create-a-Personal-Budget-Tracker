@@ -18,3 +18,14 @@ weeklyExpenses = weeklyExpenses + answer
     
  }
 
+for (let i = 0; i < monthlyExpenses.length; i++) {
+    let answer = parseFloat(window.prompt(monthlyExpenseQuestions[0]))
+monthlyExpenses = monthlyExpenses + answer
+    
+}
+
+for (let i = 0; i < annualExpenses.length; i++) {
+    let answer = parseFloat(window.prompt(annualExpenseQuestions[0]))
+annualExpenses = annualExpenses + answer
+    
+}
